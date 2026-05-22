@@ -5,3 +5,5 @@
  * WARNING: This script does not process real transactions or user credentials.
  * All functions are for demonstration purposes only.
  */
+const hero = document.querySelector('.hero');
+console.log(hero);

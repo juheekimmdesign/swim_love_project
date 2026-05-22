@@ -1,0 +1,48 @@
+body {min-width: 1760px;}
+header {
+    padding: 0 80px; height: 80px; border-bottom: 1px solid #222;
+    display: flex; justify-content: space-between; align-items: center;
+    position: fixed; width: 100%; z-index: 999; background: #fff;
+}
+header h1 {}
+header h1 a {display: block; width: 150px;}
+header h1 a img {width: 100%;}
+header .gnb {display: flex; gap: 40px;}
+header .gnb > li {}
+header .gnb > li .gnb1 {font-family: 'Paperlogy'; font-size: 0.88rem; font-weight: 600; letter-spacing: 0; color: #222;}
+header .gnb > li .active {font-family: 'Paperlogy'; font-size: 0.88rem; font-weight: 700; color: #007BFF;}
+header .gnb > li:nth-child(3),
+header .gnb > li:nth-child(6) {
+    position: relative;
+    padding-right: 40px;
+}
+header .gnb > li:nth-child(3)::after,
+header .gnb > li:nth-child(6)::after {
+    content: '';
+    position: absolute;
+    right: 0; top: 50%;
+    transform: translateY(-50%);
+    width: 1px; height: 10px;
+    background: #aaa;
+}
+header .gnb > li:nth-child(7) .gnb1,
+header .gnb > li:nth-child(8) .gnb1,
+header .gnb > li:nth-child(9) .gnb1 {font-weight: 400; color: #aaa;}
+header .lnb {display: flex; gap: 20px; align-items: center;}
+header .lnb li {}
+header .lnb li a {}
+header .lnb li a img {}
+main {}
+main .container {width: 100vw; height: 100vh; border-bottom: 1px solid #aaa; background: aqua; }
+main .container .title {text-align: center;}
+main .container .title h1 {font-family: 'Paperlogy'; font-size: 2.50rem; font-weight: 700;margin-bottom: 10px; }
+main .container .title p {font-weight: 600; color: #555; margin-bottom: 20px;}
+main .container .title .buy_btn {display: inline-block; padding: 16px 40px; border-radius: 40px; font-size: 0.88rem; font-weight: 600; color: #fff; background: #000;}
+main .hero_bnr {padding: 120px 0;}
+main .hero_bnr .hero {background: yellow; width: 1760px; height: 600px; border-radius: 20px; margin-bottom: 30px;}
+main .hero_bnr .hero .swiper-wrapper {}
+main .hero_bnr .hero .swiper-wrapper .swiper-slide {}
+main .hero_bnr .hero .swiper-wrapper .swiper-slide {}
+main .hero_bnr .hero .prev {}
+main .hero_bnr .hero .next {}
+main .hero_bnr .hero .next {}
