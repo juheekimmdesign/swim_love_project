@@ -1,0 +1,1564 @@
+<!--
+ * GitHub Repository Phishing Alert Appeal & Project Verification
+ 이 페이지는 깃허브에서 발생한 피싱 경고 오탐지(False Positive)를 해명하고, 해당 코드가 순수한 학습 및 포트폴리오용임을 증명하기 위해 작성되었습니다.
+ * Project: Portfolio Prototype
+ * Warning: This html does not process actual transactions or user credentials.
+The similarity to the actual commercial site is purely for design practice.
+-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>수영사랑</title>
+    <!--swiper 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--swiper 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 사용자 연결파일-->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="./scripts/index.js"defer></script>
+    <script src="./scripts/common.js"defer></script>
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css" />
+</head>
+<body>
+    <header>
+        <h1><a href="#"><img src="" alt="SWIM LOVE"></a></h1>
+        <ul class="gnb">
+            <li><a href="#" class="gnb1"># BEGINNER</a></li>
+            <li><a href="#" class="gnb1"># NEW</a></li>
+            <li><a href="#" class="gnb1"># BEST</a></li>
+            <li><a href="#" class="gnb1">WOMAN</a></li>
+            <li><a href="#" class="gnb1">MAN</a></li>
+            <li><a href="#" class="gnb1">KIDS</a></li>
+            <li><a href="#" class="gnb1">OUTLET</a></li>
+            <li><a href="#" class="gnb1">PROMOTION</a></li>
+            <li><a href="#" class="gnb1">LOOKBOOK</a></li>
+            <!-- gnb 서브메뉴 준비중 -->
+        </ul>
+        <ul class="lnb">
+            <li><a href="#"><img src="#" alt="user"></a></li>
+            <li><a href="#"><img src="#" alt="like"></a></li>
+            <li><a href="#"><img src="#" alt="cart"></a></li>
+            <li><a href="#"><img src="#" alt="search"></a></li>
+        </ul>
+    </header>
+    <main>
+        <!-- 1. HERO BNR : 히어로배너 시작 -->
+        <div class="hero_bnr container">
+            <div class="swiper hero">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide1"></div>
+                    <div class="swiper-slide slide2"></div>
+                </div>
+                <div class="swiper-button-prev prev"></div>
+                <div class="swiper-button-next next"></div>
+            </div>
+            <div class="title hero_title">
+                <h1>SUMMER SWIMMING</h1>
+                <p>망설임은 이제 그만, 지금이 완벽한 시작 타이밍!</p>
+                <a href="#" class="buy_btn">제품 구매하기</a>
+            </div>
+        </div>
+        <!-- 2. BEST ITEMS : 베스트 아이템 시작 -->
+        <div class="best_item container">
+            <div class="title best_title">
+                <h1>BEST ITEMS</h1>
+                <p>수영 입문자에게 인기 있는 브랜드 아이템!</p>
+            </div>
+            <div class="best_tab">
+                <div class="tab_container swave active">
+                    <!-- 접혔을 때 보이는 탭 -->
+                        <a class="tab">
+                            <img src="" alt="more">
+                            <h1>SWAVE</h1>
+                        </a>
+                        <!-- 펼쳤을 때 보이는 콘텐츠 내용 -->
+                        <div class="tab_contents">
+                            <ul class="brand_collection">
+                                <li class="collection_info">
+                                    <a href="" class="brand_link">스웨이브</a>
+                                    <h1>SWAVE</h1>
+                                    <p class="collection_name">SERENITY CLASSIC 세레니티 클래식</p>
+                                    <p class="collection_info">세련된 클래식 무드를 전하는 솔리드 디자인.<br>세미 홀터넥 높이의 가슴선을 유지하고,<br>부유방을 효과적으로 커버하는 스웨이브의 인기 스타일.</p>
+                                </li>
+                                <li class="brand_info">
+                                        <p>BRAND</p>
+                                        <p>작은 물결에서 시작된 커다란 파도,<br>그 무한한 가능성을 만들어내는 이들을 스포츠 브랜드.</p>
+                                </li>
+                            </ul>
+                            <div class="product_item">
+                                <ul class="item item1">
+                                    <li class="item_img">
+                                        <a href="#" class="item_link"><img src="" alt=""></a>
+                                        <div class="item_size">
+                                            <div class="size_btn"><img src="" alt="size_more"></div>
+                                            <!-- size_btn 클릭 했을 때 열리기 -->
+                                            <div class="size_info">
+                                                <dl class="title">
+                                                    <dt>SIZE</dt>
+                                                    <dd>Ancer Solid Fastback Low Cut</dd>
+                                                </dl>
+                                                <ul class="size">
+                                                    <li>44</li>
+                                                    <li>55</li>
+                                                    <li>66</li>
+                                                    <li>77</li>
+                                                    <li>88</li>
+                                                </ul>
+                                                <p>사이즈정보 자세히보기 ></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item_info">
+                                        <div class="info">
+                                            <h1>앤서 솔리드 패스트백 로우컷</h1>
+                                            <p>Ancer Solid Fastback Low Cut</p>
+                                            <div class="item_price">
+                                                <p class="price">99,000원</p>
+                                                <p class="dis_percent">10%</p>
+                                                <p class="dis_price">89,100원</p>
+                                            </div>
+                                            <div class="color_chip">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="btn">
+                                            <a href=""><img src="" alt="like"></a>
+                                            <a href=""><img src="" alt="cart"></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="item item2">
+                                    <li class="item_img">
+                                        <a href="#" class="item_link"><img src="" alt=""></a>
+                                        <div class="item_size">
+                                            <div class="size_btn"><img src="" alt="size_more"></div>
+                                            <!-- size_btn 클릭 했을 때 열리기 -->
+                                            <div class="size_info">
+                                                <dl class="title">
+                                                    <dt>SIZE</dt>
+                                                    <dd>Ancer Solid Fastback Low Cut</dd>
+                                                </dl>
+                                                <ul class="size">
+                                                    <li>44</li>
+                                                    <li>55</li>
+                                                    <li>66</li>
+                                                    <li>77</li>
+                                                    <li>88</li>
+                                                </ul>
+                                                <p>사이즈정보 자세히보기 ></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item_info">
+                                        <div class="info">
+                                            <h1>앤서 솔리드 패스트백 로우컷</h1>
+                                            <p>Ancer Solid Fastback Low Cut</p>
+                                            <div class="item_price">
+                                                <p class="price">99,000원</p>
+                                                <p class="dis_percent">10%</p>
+                                                <p class="dis_price">89,100원</p>
+                                            </div>
+                                            <div class="color_chip">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="btn">
+                                            <a href=""><img src="" alt="like"></a>
+                                            <a href=""><img src="" alt="cart"></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                <div class="tab_container hoog">
+                    <!-- 접혔을 때 보이는 탭 -->
+                    <a class="tab">
+                        <img src="" alt="more">
+                        <h1>HOOG</h1>
+                    </a>
+                    <!-- 펼쳤을 때 보이는 콘텐츠 내용 -->
+                        <div class="tab_contents">
+                        <ul class="brand_collection">
+                            <li class="collection_info">
+                                <a href="" class="brand_link">스웨이브</a>
+                                <h1>SWAVE</h1>
+                                <p class="collection_name">SERENITY CLASSIC 세레니티 클래식</p>
+                                <p class="collection_info">세련된 클래식 무드를 전하는 솔리드 디자인.<br>세미 홀터넥 높이의 가슴선을 유지하고,<br>부유방을 효과적으로 커버하는 스웨이브의 인기 스타일.</p>
+                            </li>
+                            <li class="brand_info">
+                                    <p>BRAND</p>
+                                    <p>작은 물결에서 시작된 커다란 파도,<br>그 무한한 가능성을 만들어내는 이들을 스포츠 브랜드.</p>
+                            </li>
+                        </ul>
+                        <div class="product_item">
+                            <ul class="item item1">
+                                <li class="item_img">
+                                    <a href="#" class="item_link"><img src="" alt=""></a>
+                                    <div class="item_size">
+                                        <div class="size_btn"><img src="" alt="size_more"></div>
+                                        <!-- size_btn 클릭 했을 때 열리기 -->
+                                        <div class="size_info">
+                                            <dl class="title">
+                                                <dt>SIZE</dt>
+                                                <dd>Ancer Solid Fastback Low Cut</dd>
+                                            </dl>
+                                            <ul class="size">
+                                                <li>44</li>
+                                                <li>55</li>
+                                                <li>66</li>
+                                                <li>77</li>
+                                                <li>88</li>
+                                            </ul>
+                                            <p>사이즈정보 자세히보기 ></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item_info">
+                                    <div class="info">
+                                        <h1>앤서 솔리드 패스트백 로우컷</h1>
+                                        <p>Ancer Solid Fastback Low Cut</p>
+                                        <div class="item_price">
+                                            <p class="price">99,000원</p>
+                                            <p class="dis_percent">10%</p>
+                                            <p class="dis_price">89,100원</p>
+                                        </div>
+                                        <div class="color_chip">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="btn">
+                                        <a href=""><img src="" alt="like"></a>
+                                        <a href=""><img src="" alt="cart"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="item item2">
+                                <li class="item_img">
+                                    <a href="#" class="item_link"><img src="" alt=""></a>
+                                    <div class="item_size">
+                                        <div class="size_btn"><img src="" alt="size_more"></div>
+                                        <!-- size_btn 클릭 했을 때 열리기 -->
+                                        <div class="size_info">
+                                            <dl class="title">
+                                                <dt>SIZE</dt>
+                                                <dd>Ancer Solid Fastback Low Cut</dd>
+                                            </dl>
+                                            <ul class="size">
+                                                <li>44</li>
+                                                <li>55</li>
+                                                <li>66</li>
+                                                <li>77</li>
+                                                <li>88</li>
+                                            </ul>
+                                            <p>사이즈정보 자세히보기 ></p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item_info">
+                                    <div class="info">
+                                        <h1>앤서 솔리드 패스트백 로우컷</h1>
+                                        <p>Ancer Solid Fastback Low Cut</p>
+                                        <div class="item_price">
+                                            <p class="price">99,000원</p>
+                                            <p class="dis_percent">10%</p>
+                                            <p class="dis_price">89,100원</p>
+                                        </div>
+                                        <div class="color_chip">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="btn">
+                                        <a href=""><img src="" alt="like"></a>
+                                        <a href=""><img src="" alt="cart"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab_container more">
+                    <!-- 클릭 했을 때 상품 더보기 링크로 이동 -->
+                    <a class="tab">
+                        <img src="" alt="more">
+                        <h1>MORE</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 3. BEGINNER GUIDE : 입문자 가이드 시작 -->
+        <div class="beginner_guide container">
+            <div class="title be_guide_title">
+                <h1>BEGINNER GUIDE</h1>
+                <p>수영복은 컷, 백스타일, 소재에 따라 착용감과 움직임이 달라져요.</p>
+            </div>
+            <ul class="guide_category">
+                <!-- 여성 tab -->
+                <li class="gender_group active">
+                    <div class="gender_item">여성<span class="arrow"><img src="" alt="more"></span></div>
+                    <ul class="category_tabs">
+                        <li class="active" data-category="0">
+                            <p class="tab_style">CUT</p>
+                            <p class="tab_desc">컷팅 라인에 따라 다리 커버와 힙커버가 달라져요</p>
+                        </li>
+                        <li data-category="1">
+                            <p class="tab_style">BACK STYLE</p>
+                            <p class="tab_desc">백스타일에 따라 어깨 움직임이 달라져요</p>
+                        </li>
+                        <li data-category="2">
+                            <p class="tab_style">FABRIC</p>
+                            <p class="tab_desc">소재에 따라 내구성과 착용감이 달라져요</p>
+                        </li>
+                    </ul>
+                </li>
+                <!-- 남성 tab -->
+                <li class="gender_group">
+                    <div class="gender_item">남성<span class="arrow"><img src="" alt="more"></span></div>
+                    <ul class="category_tabs">
+                        <li class="active" data-category="0">
+                            <p class="tab_style">CUT</p>
+                            <p class="tab_desc">컷팅 라인에 따라 다리 커버와 힙커버가 달라져요</p>
+                        </li>
+                        <li data-category="1">
+                            <p class="tab_style">BACK STYLE</p>
+                            <p class="tab_desc">백스타일에 따라 어깨 움직임이 달라져요</p>
+                        </li>
+                        <li data-category="2">
+                            <p class="tab_style">FABRIC</p>
+                            <p class="tab_desc">소재에 따라 내구성과 착용감이 달라져요</p>
+                        </li>
+                    </ul>
+                </li>
+                <!-- 키즈 tab -->
+                <li class="gender_group">
+                    <div class="gender_item">키즈<span class="arrow"><img src="" alt="more"></span></div>
+                    <ul class="category_tabs">
+                        <li class="active" data-category="0">
+                            <p class="tab_style">CUT</p>
+                            <p class="tab_desc">컷팅 라인에 따라 다리 커버와 힙커버가 달라져요</p>
+                        </li>
+                        <li data-category="1">
+                            <p class="tab_style">BACK STYLE</p>
+                            <p class="tab_desc">백스타일에 따라 어깨 움직임이 달라져요</p>
+                        </li>
+                        <li data-category="2">
+                            <p class="tab_style">FABRIC</p>
+                            <p class="tab_desc">소재에 따라 내구성과 착용감이 달라져요</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="guide_contents">
+                <div class="woman">
+                    <ul class="guide cut">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                    <ul class=" guide back_style">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                    <ul class="guide fabric">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="man">
+                    <ul class="guide cut">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                    <ul class=" guide back_style">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                    <ul class="guide fabric">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="kid">
+                    <ul class="guide cut">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                    <ul class=" guide back_style">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                    <ul class="guide fabric">
+                        <li>
+                            <span class="tag">편안한핏</span>
+                            <div class="guide_title">
+                                <h1>로우컷</h1>
+                                <p>Low cut</p>
+                            </div>
+                            <p class="guide_desc">커버를 목적 컷팅, 안정적인 착용감 골반선 아래까지<br>노출 부담이 적고 무난한 클래식 단정 실루엣</p>
+                        </li>
+                        <li>
+                            <span class="tag">베이직 핏</span>
+                            <div class="guide_title">
+                                <h1>미들컷</h1>
+                                <p>Middle cut</p>
+                            </div>
+                            <p class="guide_desc">균형잡힌 핏,  가장 인기있는 베이직 스타일로<br>하체가 있는 분들에게 추천</p>
+                        </li>
+                        <li>
+                            <span class="tag">노출부담 없는 핏</span>
+                            <div class="guide_title">
+                                <h1>반전신 1 ~ 3부</h1>
+                                <p>Half</p>
+                            </div>
+                            <p class="guide_desc">노출 부담시 편안하게 착용가능.<br>무난하고 편안한 핏.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 4. BEGINNER ITEMS : 입문자 아이템 추천 시작 -->
+         <div class="beginner_items container">
+            <div class="title be_items_title">
+                <h1>BEGINNER ITEMS</h1>
+                <p>수영 입문자들이 가장 많이 선택한 베스트 입문 아이템</p>
+            </div>
+            <div class="cate_tab">
+                <p class="active"># 여성수영복</p>
+                <p># 남성수영복</p>
+                <p># 수모</p>
+                <p># 수경</p>
+                <p># 수영가방</p>
+                <p># 수영용품</p>
+            </div>
+            <div class="cate_contents">
+                <ul class="contens_list woman_list">
+                    <li class="item item1">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item2">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item3">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item4">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="contens_list man_list">
+                    <li class="item item1">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item2">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item3">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item4">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="contens_list cap_list">
+                    <li class="item item1">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item2">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item3">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item4">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="contens_list glasses_list">
+                    <li class="item item1">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item2">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item3">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item4">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="contens_list bag_list">
+                    <li class="item item1">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item2">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item3">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item4">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="contens_list goods_list">
+                    <li class="item item1">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item2">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item3">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="item item4">
+                        <a href="" class="item_img_info"><!-- hover시 이미지 변경 + 제품 정보 출력 -->
+                            <div class="item_info">
+                                <p class="brand">HOOG</p>
+                                <h1>723 로우 U백 탄탄이</h1>
+                                <p class="item_en">723 Low U Back Tantan</p>
+                                <p class="price">96,000원</p>
+                            </div>
+                            <div class="buy_btn">
+                                <a href="#"><img src="" alt="like"></a>
+                                <a href="#"><img src="" alt="cart"></a>
+                            </div>
+                        </a>
+                        <div class="item_feature">
+                            <div class="tag">
+                                <span class="level">입문자용</span>
+                                <span>착용감이 편한 수트를 찾는 스위머</span>
+                            </div>
+                            <p>단순한 백스트립과 활동성 좋은 탄탄이 원단</p>
+                            <ul class="feature">
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>CUT</p></div>
+                                    <p class="type">LOW CUT</p>
+                                    <p class="desc">하체 커버핏 로우컷</p>
+                                </li>
+                                <li>
+                                    <div class="style"><img src="" alt=""><p>BACK</p></div>
+                                    <p class="type">U-BACK</p>
+                                    <p class="desc">편안한 착용감 U 백</p>
+                                </li>
+                                <li>
+                                    <div class="cut"><img src="" alt=""><p>FABRIC</p></div>
+                                    <p class="type">ENDURANCE</p>
+                                    <p class="desc">탄탄이</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
