@@ -7,3 +7,12 @@
  */
 const hero = document.querySelector('.hero');
 console.log(hero);
+const heroSwiper = new Swiper (hero, {
+    loop:true,
+    speed:3000,
+    autoplay:{dealy:4000,},
+   navigation:{
+        prevEl:'.hero .prev',
+        nextEl:'.hero .next',
+    }, 
+})

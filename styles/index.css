@@ -32,17 +32,21 @@ header .lnb {display: flex; gap: 20px; align-items: center;}
 header .lnb li {}
 header .lnb li a {}
 header .lnb li a img {}
+/* 메인 시작, 공통 컨테이너 */
 main {}
-main .container {width: 100vw; height: 100vh; border-bottom: 1px solid #aaa; background: aqua; }
+main .container {width: 100vw; height: 100vh; border-bottom: 1px solid #aaa;}
 main .container .title {text-align: center;}
 main .container .title h1 {font-family: 'Paperlogy'; font-size: 2.50rem; font-weight: 700;margin-bottom: 10px; }
 main .container .title p {font-weight: 600; color: #555; margin-bottom: 20px;}
 main .container .title .buy_btn {display: inline-block; padding: 16px 40px; border-radius: 40px; font-size: 0.88rem; font-weight: 600; color: #fff; background: #000;}
+/* hero bnr : 히어로 배너 시작 */
 main .hero_bnr {padding: 120px 0;}
 main .hero_bnr .hero {background: yellow; width: 1760px; height: 600px; border-radius: 20px; margin-bottom: 30px;}
 main .hero_bnr .hero .swiper-wrapper {}
 main .hero_bnr .hero .swiper-wrapper .swiper-slide {}
-main .hero_bnr .hero .swiper-wrapper .swiper-slide {}
+main .hero_bnr .hero .swiper-wrapper .slide1 {background-image: url(../images/hero_001.jpg);}
+main .hero_bnr .hero .swiper-wrapper .slide2 {background-image: url(../images/hero_002.jpg);}
+main .hero_bnr .hero .swiper-button-prev {margin-left: 40px; color: #fff;}
+main .hero_bnr .hero .swiper-button-next {margin-right: 40px; color: #fff;}
 main .hero_bnr .hero .prev {}
-main .hero_bnr .hero .next {}
 main .hero_bnr .hero .next {}
