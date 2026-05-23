@@ -39,7 +39,7 @@ main .container .title {text-align: center;}
 main .container .title h1 {font-family: 'Paperlogy'; font-size: 2.50rem; font-weight: 700;margin-bottom: 10px; }
 main .container .title p {font-weight: 600; color: #555; margin-bottom: 20px;}
 main .container .title .buy_btn {display: inline-block; padding: 16px 40px; border-radius: 40px; font-size: 0.88rem; font-weight: 600; color: #fff; background: #000;}
-/* hero bnr : 히어로 배너 시작 */
+/* 1. HERO BNR : 히어로배너 시작 */
 main .hero_bnr {padding: 120px 0;}
 main .hero_bnr .hero {background: yellow; width: 1760px; height: 600px; border-radius: 20px; margin-bottom: 30px;}
 main .hero_bnr .hero .swiper-wrapper {}
@@ -50,3 +50,54 @@ main .hero_bnr .hero .swiper-button-prev {margin-left: 40px; color: #fff;}
 main .hero_bnr .hero .swiper-button-next {margin-right: 40px; color: #fff;}
 main .hero_bnr .hero .prev {}
 main .hero_bnr .hero .next {}
+/* 2. BEST ITEMS : 베스트 아이템 시작 */
+main .best_item {padding: 120px 0;}
+main .best_item .best_title {margin-bottom: 40px;}
+main .best_item .best_title h1 {}
+main .best_item .best_title p {}
+/* 접혔을 때 보이는 탭 : 공통 */
+main .best_item .best_tab {display: flex; width: 1760px; height: 720px; margin: 0 auto; background: yellow; }
+main .best_item .best_tab img {}
+main .best_item .best_tab h1 {writing-mode: vertical-rl; text-orientation: mixed;}
+/* 펼쳤을 때 보이는 콘텐츠 내용 : 공통 */
+main .best_item .best_tab .tab_container { }
+main .best_item .best_tab .tab_container .tab {display: block; height: 720px; width: 120px; background: salmon; border-radius: 20px;}
+main .best_item .best_tab .tab_container .tab img {}
+main .best_item .best_tab .tab_container .tab h1 {}
+main .best_item .best_tab .tab_container .tab_contents {width: 1520px; height: 720px; margin: 0 auto;  background: aqua;}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link a {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link h1 {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link .collection_name {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link .collection_info {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info p {}
+main .best_item .best_tab .tab_container .tab_contents .product_item {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img  {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_link {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_link img {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_btn {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_btn img {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dt {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dd {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size li {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info p {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info h1 {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info p  {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price  {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .price {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_percent {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_price {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .color_chip {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .color_chip span {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn a {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn a img {}
