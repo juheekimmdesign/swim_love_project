@@ -10,7 +10,7 @@ header h1 a img {width: 100%;}
 header .gnb {display: flex; gap: 40px;}
 header .gnb > li {}
 header .gnb > li .gnb1 {font-family: 'Paperlogy'; font-size: 0.88rem; font-weight: 600; letter-spacing: 0; color: #222;}
-header .gnb > li .active {font-family: 'Paperlogy'; font-size: 0.88rem; font-weight: 700; color: #007BFF;}
+header .gnb > li .gnb1:hover {font-family: 'Paperlogy'; font-size: 0.88rem; font-weight: 700; color: #007BFF;}
 header .gnb > li:nth-child(3),
 header .gnb > li:nth-child(6) {
     position: relative;
@@ -28,17 +28,21 @@ header .gnb > li:nth-child(6)::after {
 header .gnb > li:nth-child(7) .gnb1,
 header .gnb > li:nth-child(8) .gnb1,
 header .gnb > li:nth-child(9) .gnb1 {font-weight: 400; color: #aaa;}
+header .gnb > li:nth-child(7) .gnb1:hover,
+header .gnb > li:nth-child(8) .gnb1:hover,
+header .gnb > li:nth-child(9) .gnb1:hover {color: #007BFF;}
 header .lnb {display: flex; gap: 20px; align-items: center;}
 header .lnb li {}
 header .lnb li a {}
 header .lnb li a img {}
 /* 메인 시작, 공통 컨테이너 */
 main {}
-main .container {width: 100vw; height: 100vh; border-bottom: 1px solid #aaa;}
+main .container {width: 100vw; min-height: 100vh; border-bottom: 1px solid #aaa;}
 main .container .title {text-align: center;}
 main .container .title h1 {font-family: 'Paperlogy'; font-size: 2.50rem; font-weight: 700;margin-bottom: 10px; }
 main .container .title p {font-weight: 600; color: #555; margin-bottom: 20px;}
 main .container .title .buy_btn {display: inline-block; padding: 16px 40px; border-radius: 40px; font-size: 0.88rem; font-weight: 600; color: #fff; background: #000;}
+main .container .title .buy_btn:hover {background: #333d4b;}
 /* 1. HERO BNR : 히어로배너 시작 */
 main .hero_bnr {padding: 120px 0;}
 main .hero_bnr .hero {background: yellow; width: 1760px; height: 600px; border-radius: 20px; margin-bottom: 30px;}
@@ -58,14 +62,18 @@ main .best_item .best_title p {}
 /* 접혔을 때 보이는 탭 : 공통 */
 main .best_item .best_tab {display: flex; width: 1760px; height: 720px; margin: 0 auto; background: yellow; }
 main .best_item .best_tab img {}
-main .best_item .best_tab h1 {writing-mode: vertical-rl; text-orientation: mixed;}
+main .best_item .best_tab .vertical {writing-mode: vertical-rl; text-orientation: mixed;}
 /* 펼쳤을 때 보이는 콘텐츠 내용 : 공통 */
-main .best_item .best_tab .tab_container { }
+main .best_item .best_tab .tab_container {display: flex; }
 main .best_item .best_tab .tab_container .tab {display: block; height: 720px; width: 120px; background: salmon; border-radius: 20px;}
 main .best_item .best_tab .tab_container .tab img {}
 main .best_item .best_tab .tab_container .tab h1 {}
-main .best_item .best_tab .tab_container .tab_contents {width: 1520px; height: 720px; margin: 0 auto;  background: aqua;}
-main .best_item .best_tab .tab_container .tab_contents .brand_collection {}
+main .best_item .best_tab .tab_container .tab_contents {
+    display: flex; 
+    width: 1520px; height: 720px; margin: 0 auto;  background: aqua;
+    border-radius: 20px;
+}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection {display: flex; flex-flow: column nowrap;}
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info {}
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link {}
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link a {}
@@ -74,7 +82,7 @@ main .best_item .best_tab .tab_container .tab_contents .brand_collection .collec
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link .collection_info {}
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info {}
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info p {}
-main .best_item .best_tab .tab_container .tab_contents .product_item {}
+main .best_item .best_tab .tab_container .tab_contents .product_item {display: flex;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img  {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_link {}
@@ -86,13 +94,14 @@ main .best_item .best_tab .tab_container .tab_contents .product_item .item .item
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dt {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dd {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size {display: flex;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size li {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info p {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info  {display: flex;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info h1 {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info p  {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price  {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price  {display: flex;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .price {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_percent {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_price {}
@@ -101,3 +110,9 @@ main .best_item .best_tab .tab_container .tab_contents .product_item .item .item
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn a {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn a img {}
+main .beginner_guide {display: none;}
+main .beginner_items {display: none;}
+main .custom_cap {display: none;}
+main .review {display: none;}
+main .promotion {display: none;}
+footer {display: none;}
