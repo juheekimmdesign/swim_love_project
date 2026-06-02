@@ -60,56 +60,74 @@ main .best_item .best_title {margin-bottom: 40px;}
 main .best_item .best_title h1 {}
 main .best_item .best_title p {}
 /* 접혔을 때 보이는 탭 : 공통 */
-main .best_item .best_tab {display: flex; width: 1760px; height: 720px; margin: 0 auto; background: yellow; }
-main .best_item .best_tab img {}
-main .best_item .best_tab .vertical {writing-mode: vertical-rl; text-orientation: mixed;}
+main .best_item .best_tab  {display: flex; width: 1760px; height: 720px; margin: 0 auto;}
+main .best_item .best_tab .tab_container img {}
+main .best_item .best_tab .tab_container .vertical {writing-mode: vertical-rl; text-orientation: mixed; color: #aaa; font-family: 'Paperlogy'; font-size: 1.5rem;}
+
 /* 펼쳤을 때 보이는 콘텐츠 내용 : 공통 */
-main .best_item .best_tab .tab_container {display: flex; }
-main .best_item .best_tab .tab_container .tab {display: block; height: 720px; width: 120px; background: salmon; border-radius: 20px;}
+main .best_item .best_tab .tab_container {display: flex;}
+main .best_item .best_tab .tab_container .tab {
+    display: flex; flex-flow: column nowrap; align-items: center; justify-content:  start; gap: 8px; 
+    height: 720px; width: 120px; padding-top: 80px; background: #111; border-radius: 20px;
+}
 main .best_item .best_tab .tab_container .tab img {}
 main .best_item .best_tab .tab_container .tab h1 {}
 main .best_item .best_tab .tab_container .tab_contents {
-    display: flex; 
+    display: flex; justify-content: space-between;
     width: 1520px; height: 720px; margin: 0 auto;  background: aqua;
-    border-radius: 20px;
+    border-radius: 20px; padding: 80px;
 }
-main .best_item .best_tab .tab_container .tab_contents .brand_collection {display: flex; flex-flow: column nowrap;}
-main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info {}
-main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection {display: flex; flex-flow: column nowrap; justify-content: space-between;}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info {display: flex; flex-flow: column; gap: 20px;}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link {color: #555; font-weight: 600;}
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link a {}
-main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link h1 {}
-main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link .collection_name {}
-main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .brand_link .collection_info {}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info h1 {font-family: 'Paperlogy'; font-size: 2.50rem; font-weight: 700; color: #fff;}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .collection_name {font-size: 0.88rem; color: #ddd; line-height: 1.7;}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .collection_info .collection_info {line-height: 1.7; color: #ddd;}
 main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info {}
-main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info p {}
-main .best_item .best_tab .tab_container .tab_contents .product_item {display: flex;}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info p:first-child {font-weight: 600;}
+main .best_item .best_tab .tab_container .tab_contents .brand_collection .brand_info p {font-size: 0.88rem; line-height: 1.7; color: #888;}
+main .best_item .best_tab .tab_container .tab_contents .product_item {display: flex; gap: 40px;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img  {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img  {position: relative; margin-bottom: 20px;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_link {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_link img {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_btn {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_btn img {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dt {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dd {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size {display: flex;}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size li {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info p {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info  {display: flex;}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info h1 {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info p  {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price  {display: flex;}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .price {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size {display: flex; position: absolute; top: 32%; right: 0;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_btn {width: 24px; height: 100px; background: #007BFF; border-radius:  8px  0  0 8px;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_btn img {position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info {
+    display: flex; flex-flow: column nowrap; gap: 10px; justify-content: center; align-items: start;
+    width: 276px; height: 100px; background: rgba(255,255,255,0.8); padding-left: 20px;
+}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title {display: flex; align-items: center; gap: 10px;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dt {font-family: 'paperlogy'; letter-spacing: 0; color: #222; font-weight: 500; font-size: 0.75rem;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .title dd {font-size: 0.88rem; color: #888; font-size: 0.63rem;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size {display: flex; gap: 8px;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info .size li {
+    color: #555; background: rgba(34,34,34,0.1); padding: 8px 10px; border-radius: 8px;
+    font-size: 0.75rem; font-weight: 500;
+}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_img .item_size .size_info p {font-size: 0.75rem; color: #555; border-bottom: 1px solid #888;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info  {display: flex; justify-content: space-between; }
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info {display: flex; flex-flow: column nowrap; gap: 10px;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info > * ,
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price > * {color: #FFF; }
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info h1 {font-family: 'Paperlogy'; font-weight: 500;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info p  {font-size: 0.75rem;  }
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price {display: flex; align-items: center; gap: 4px;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .price {text-decoration: line-through; color: #aaa;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_percent {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_price {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_price, 
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .item_price .dis_percent{ font-size: 1rem;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .color_chip {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .color_chip span {}
-main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn {}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .info .color_chip span {display: inline-block; width: 16px; height: 16px; background: #aaa;}
+main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn {display: flex; gap: 20px;}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn a {}
 main .best_item .best_tab .tab_container .tab_contents .product_item .item .item_info .btn a img {}
+main .best_item .best_tab .swave .tab_contents {background-image: url(../images/best_bg_001.jpg);}
+main .best_item .best_tab .swave .tab {display: none;}
+main .best_item .best_tab .hoog .tab_contents {display: none;}
 main .beginner_guide {display: none;}
 main .beginner_items {display: none;}
 main .custom_cap {display: none;}
